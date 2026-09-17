@@ -19,7 +19,7 @@ const courseCategories = (() => {
         .map(([key, config]) => ({ key, ...config }));
 
       let items = [];
-
+      //
       // 3. Logic: If multiple sub-categories, show them. If single, show its courses.
       if (subCats.length > 1) {
         items = subCats.map((sc) => ({
