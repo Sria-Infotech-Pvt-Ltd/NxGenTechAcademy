@@ -635,11 +635,11 @@ export const Navbar = () => {
                 About Us
               </Link>
             </Button>
-            <Button asChild className="w-full bg-[#000080] text-white">
+            {/* <Button asChild className="w-full bg-[#000080] text-white">
               <Link to="/blogs" onClick={() => setIsMobileMenuOpen(false)}>
                 Blogs
               </Link>
-            </Button>
+            </Button> */}
             <Button asChild className="w-full bg-[#000080] text-white">
               <Link to="/contact-us" onClick={() => setIsMobileMenuOpen(false)}>
                 Contact Us
