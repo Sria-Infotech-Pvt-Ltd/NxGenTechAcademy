@@ -349,6 +349,13 @@ export const Navbar = () => {
                         link: "/courses/aiml",
                         items: courseCategories.find((c) => c.category === "AIML")?.items || []
                       },
+                      /* Commented out per request - Mobile App Development
+                      {
+                        name: "Mobile App Development",
+                        link: "/courses/mobile-app",
+                        items: courseCategories.find((c) => c.category === "Mobile App Development")?.items || []
+                      },
+                      */
                       /* Commented out per request - Data Analytics / Digital Marketing nav categories
                       {
                         name: "Data Analytics",
@@ -568,6 +575,13 @@ export const Navbar = () => {
                       link: "/courses/aiml",
                       items: courseCategories.find((c) => c.category === "AIML")?.items || []
                     },
+                    /* Commented out per request - Mobile App Development
+                    {
+                      name: "Mobile App Development",
+                      link: "/courses/mobile-app",
+                      items: courseCategories.find((c) => c.category === "Mobile App Development")?.items || []
+                    },
+                    */
                     /* Commented out per request - Data Analytics / Digital Marketing nav categories
                     {
                       name: "Data Analytics",

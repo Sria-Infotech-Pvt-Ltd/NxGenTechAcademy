@@ -86,6 +86,21 @@ export const categoryConfig: Record<string, { title: string; description: string
             "Implement security, DevOps, and automation on the platform"
         ]
     },
+    /* Commented out per request - Mobile App Development category
+    "mobile-app": {
+        title: "Mobile App Development",
+        description: "Build native and cross-platform mobile applications for iOS and Android.",
+        parentCategory: "Mobile App Development",
+        outcomes: [
+            "Master mobile app development fundamentals and design patterns",
+            "Develop native iOS applications using Swift and SwiftUI",
+            "Develop native Android applications using Kotlin",
+            "Build cross-platform apps using Flutter and React Native",
+            "Implement mobile security, APIs, and real-time features",
+            "Deploy and publish apps to App Store and Google Play Store"
+        ]
+    },
+    */
     /* Commented out per request - Digital Marketing category
     "digital-marketing": {
         title: "Digital Marketing",
@@ -288,6 +303,57 @@ export const coursesData: CourseData[] = [
         mode: "Online / Offline"
     },
 
+    /* Commented out per request - Mobile App Development courses
+    // Mobile App Development - Courses
+    {
+        id: "ios-app-development-course-training",
+        title: "iOS App Development (Swift)",
+        description: "Master native iOS app development using Swift and SwiftUI with hands-on projects.",
+        categoryId: "mobile-app",
+        image: "/mobile/ios-development.jpg",
+        rating: 5,
+        price: "Contact Us",
+        duration: "3 to 4 Months",
+        enrolled: "0+",
+        mode: "Online / Offline"
+    },
+    {
+        id: "android-app-development-course-training",
+        title: "Android App Development (Kotlin)",
+        description: "Develop native Android applications using Kotlin with modern development practices.",
+        categoryId: "mobile-app",
+        image: "/mobile/android-development.jpg",
+        rating: 5,
+        price: "Contact Us",
+        duration: "3 to 4 Months",
+        enrolled: "0+",
+        mode: "Online / Offline"
+    },
+    {
+        id: "flutter-app-development-course-training",
+        title: "Flutter Cross-Platform Development",
+        description: "Build beautiful cross-platform mobile apps for iOS and Android using Flutter.",
+        categoryId: "mobile-app",
+        image: "/mobile/flutter-development.jpg",
+        rating: 5,
+        price: "Contact Us",
+        duration: "3 to 4 Months",
+        enrolled: "0+",
+        mode: "Online / Offline"
+    },
+    {
+        id: "react-native-app-development-course-training",
+        title: "React Native App Development",
+        description: "Create cross-platform mobile apps using React Native with JavaScript/TypeScript.",
+        categoryId: "mobile-app",
+        image: "/mobile/react-native-development.jpg",
+        rating: 5,
+        price: "Contact Us",
+        duration: "3 to 4 Months",
+        enrolled: "0+",
+        mode: "Online / Offline"
+    },
+    */
 
     /* Commented out per request - Digital Marketing courses
     // Digital Marketing Courses

@@ -6,6 +6,7 @@ export const categories: Category[] = [
   { id: "all", name: "All Categories" },
   { id: "python", name: "Python" },
   { id: "aiml", name: "AI & ML" },
+  // { id: "mobile-app", name: "Mobile App Development" },
   // { id: "fullstack", name: "Full Stack" },
   // { id: "ai-data-science", name: "AI Data Science" },
   // { id: "python-ai-dsa", name: "Python Full stack AI integration & DSA" },

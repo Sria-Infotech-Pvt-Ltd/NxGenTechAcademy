@@ -129,6 +129,9 @@ const AppContent = () => {
           <Route path="courses/digital-marketing" element={<CategoryListing categorySlug="digital-marketing" />} />
           */}
           <Route path="courses/sap-btp" element={<CategoryListing categorySlug="sap-btp" />} />
+          {/* Commented out per request - Mobile App Development category route
+          <Route path="courses/mobile-app" element={<CategoryListing categorySlug="mobile-app" />} />
+          */}
           <Route path="courses/:id" element={<CourseDetail />} />
 
           {/* Old slugs kept as redirects so existing links/bookmarks/SEO don't break */}

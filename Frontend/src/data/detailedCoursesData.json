@@ -2046,4 +2046,411 @@
             "Software Engineers"
         ]
     }
+    /* Commented out per request - Mobile App Development detailed courses
+    ,
+    "ios-app-development-course-training": {
+        "id": "ios-app-development-course-training",
+        "title": "iOS App Development (Swift)",
+        "tagline": "Build native iOS applications with Swift and SwiftUI.",
+        "level": "Beginner to Advanced",
+        "duration": "3 to 4 Months",
+        "lessons": 45,
+        "projects": 3,
+        "image": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=1200",
+        "overview": "Master native iOS app development using Swift programming language and SwiftUI framework. Learn to build production-ready iOS applications with modern design patterns and best practices.",
+        "outcomes": [
+            "Master Swift programming language fundamentals",
+            "Design UI using SwiftUI framework",
+            "Implement data persistence with CoreData and UserDefaults",
+            "Integrate APIs and handle networking",
+            "Deploy apps to Apple App Store"
+        ],
+        "curriculum": [
+            {
+                "module": "Module 1: Swift Fundamentals",
+                "topics": [
+                    "Variables and Constants",
+                    "Control Flow",
+                    "Functions and Closures",
+                    "Collections"
+                ]
+            },
+            {
+                "module": "Module 2: Object-Oriented Programming",
+                "topics": [
+                    "Classes and Structures",
+                    "Protocols",
+                    "Inheritance",
+                    "Extensions"
+                ]
+            },
+            {
+                "module": "Module 3: SwiftUI Basics",
+                "topics": [
+                    "Views and Modifiers",
+                    "State and Binding",
+                    "Navigation",
+                    "Layout Systems"
+                ]
+            },
+            {
+                "module": "Module 4: Advanced SwiftUI",
+                "topics": [
+                    "Custom Views",
+                    "Animations",
+                    "Gestures",
+                    "Performance Optimization"
+                ]
+            },
+            {
+                "module": "Module 5: Data Persistence",
+                "topics": [
+                    "UserDefaults",
+                    "CoreData",
+                    "CloudKit",
+                    "File Management"
+                ]
+            },
+            {
+                "module": "Module 6: Networking & APIs",
+                "topics": [
+                    "URLSession",
+                    "Codable Protocol",
+                    "JSON Parsing",
+                    "Error Handling"
+                ]
+            }
+        ],
+        "tools": [
+            {
+                "name": "Swift",
+                "icon": "Code"
+            },
+            {
+                "name": "SwiftUI",
+                "icon": "Layout"
+            },
+            {
+                "name": "Xcode",
+                "icon": "Terminal"
+            },
+            {
+                "name": "CoreData",
+                "icon": "Database"
+            }
+        ],
+        "project": {
+            "title": "Build a Social Media App",
+            "description": "Develop a complete iOS app with user authentication, feed, and real-time updates."
+        },
+        "audience": [
+            "Beginners",
+            "Mobile Developers",
+            "iOS Enthusiasts"
+        ]
+    },
+    "android-app-development-course-training": {
+        "id": "android-app-development-course-training",
+        "title": "Android App Development (Kotlin)",
+        "tagline": "Create native Android applications using Kotlin with modern frameworks.",
+        "level": "Beginner to Advanced",
+        "duration": "3 to 4 Months",
+        "lessons": 45,
+        "projects": 3,
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200",
+        "overview": "Learn to develop native Android applications using Kotlin programming language. Master modern Android development with Jetpack libraries, Material Design, and best practices.",
+        "outcomes": [
+            "Master Kotlin programming fundamentals",
+            "Design UI using Jetpack Compose",
+            "Implement data storage with Room Database",
+            "Integrate REST APIs and real-time data",
+            "Deploy apps to Google Play Store"
+        ],
+        "curriculum": [
+            {
+                "module": "Module 1: Kotlin Fundamentals",
+                "topics": [
+                    "Variables and Data Types",
+                    "Control Structures",
+                    "Functions",
+                    "Object-Oriented Programming"
+                ]
+            },
+            {
+                "module": "Module 2: Android Basics",
+                "topics": [
+                    "Activities and Fragments",
+                    "Lifecycle Management",
+                    "Intents",
+                    "Services"
+                ]
+            },
+            {
+                "module": "Module 3: Jetpack Compose",
+                "topics": [
+                    "Composable Functions",
+                    "State Management",
+                    "Navigation",
+                    "Material Design"
+                ]
+            },
+            {
+                "module": "Module 4: Data Persistence",
+                "topics": [
+                    "SharedPreferences",
+                    "Room Database",
+                    "DataStore",
+                    "File Operations"
+                ]
+            },
+            {
+                "module": "Module 5: Networking",
+                "topics": [
+                    "Retrofit",
+                    "OkHttp",
+                    "JSON Parsing",
+                    "Error Handling"
+                ]
+            },
+            {
+                "module": "Module 6: Advanced Features",
+                "topics": [
+                    "Background Tasks",
+                    "Notifications",
+                    "Sensors",
+                    "Location Services"
+                ]
+            }
+        ],
+        "tools": [
+            {
+                "name": "Kotlin",
+                "icon": "Code"
+            },
+            {
+                "name": "Jetpack Compose",
+                "icon": "Layout"
+            },
+            {
+                "name": "Android Studio",
+                "icon": "Terminal"
+            },
+            {
+                "name": "Room Database",
+                "icon": "Database"
+            }
+        ],
+        "project": {
+            "title": "Build a Note-Taking App",
+            "description": "Develop a complete Android app with database integration, cloud sync, and offline support."
+        },
+        "audience": [
+            "Beginners",
+            "Mobile Developers",
+            "Android Enthusiasts"
+        ]
+    },
+    "flutter-app-development-course-training": {
+        "id": "flutter-app-development-course-training",
+        "title": "Flutter Cross-Platform Development",
+        "tagline": "Build beautiful apps for iOS and Android from a single codebase.",
+        "level": "Beginner to Intermediate",
+        "duration": "3 to 4 Months",
+        "lessons": 40,
+        "projects": 2,
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200",
+        "overview": "Master cross-platform mobile development with Flutter. Learn to build beautiful, fast applications for both iOS and Android using Dart language and Flutter framework.",
+        "outcomes": [
+            "Master Dart programming language",
+            "Build responsive UI with Flutter widgets",
+            "Implement state management solutions",
+            "Integrate APIs and real-time databases",
+            "Deploy apps to both App Store and Play Store"
+        ],
+        "curriculum": [
+            {
+                "module": "Module 1: Dart Fundamentals",
+                "topics": [
+                    "Syntax and Data Types",
+                    "Control Flow",
+                    "Functions",
+                    "Classes and Objects"
+                ]
+            },
+            {
+                "module": "Module 2: Flutter Basics",
+                "topics": [
+                    "Widgets and Layouts",
+                    "Material Design",
+                    "Cupertino (iOS) Style",
+                    "Navigation"
+                ]
+            },
+            {
+                "module": "Module 3: State Management",
+                "topics": [
+                    "setState()",
+                    "Provider Pattern",
+                    "BLoC Pattern",
+                    "GetX Framework"
+                ]
+            },
+            {
+                "module": "Module 4: API Integration",
+                "topics": [
+                    "HTTP Requests",
+                    "JSON Parsing",
+                    "Authentication",
+                    "Error Handling"
+                ]
+            },
+            {
+                "module": "Module 5: Firebase Integration",
+                "topics": [
+                    "Firebase Setup",
+                    "Firestore Database",
+                    "Authentication",
+                    "Cloud Functions"
+                ]
+            },
+            {
+                "module": "Module 6: Deployment",
+                "topics": [
+                    "Building for iOS",
+                    "Building for Android",
+                    "App Store Review",
+                    "Play Store Deployment"
+                ]
+            }
+        ],
+        "tools": [
+            {
+                "name": "Dart",
+                "icon": "Code"
+            },
+            {
+                "name": "Flutter",
+                "icon": "Layout"
+            },
+            {
+                "name": "Firebase",
+                "icon": "Database"
+            },
+            {
+                "name": "VS Code",
+                "icon": "Terminal"
+            }
+        ],
+        "project": {
+            "title": "Build an E-Commerce App",
+            "description": "Create a cross-platform e-commerce application with product catalog, cart, and payment integration."
+        },
+        "audience": [
+            "Beginners",
+            "Cross-Platform Developers",
+            "Mobile Developers"
+        ]
+    },
+    "react-native-app-development-course-training": {
+        "id": "react-native-app-development-course-training",
+        "title": "React Native App Development",
+        "tagline": "Build mobile apps using JavaScript/TypeScript and React.",
+        "level": "Intermediate",
+        "duration": "3 to 4 Months",
+        "lessons": 40,
+        "projects": 2,
+        "image": "https://images.unsplash.com/photo-1555421689-d68471e189f2?w=1200",
+        "overview": "Learn to develop cross-platform mobile applications using React Native. Build iOS and Android apps using JavaScript/TypeScript with the power of React.",
+        "outcomes": [
+            "Master React Native framework",
+            "Build UI with native components",
+            "Manage state with Redux or Context API",
+            "Integrate third-party libraries and APIs",
+            "Deploy apps to both platforms"
+        ],
+        "curriculum": [
+            {
+                "module": "Module 1: React Fundamentals Review",
+                "topics": [
+                    "Components and Props",
+                    "State and Lifecycle",
+                    "Hooks",
+                    "Context API"
+                ]
+            },
+            {
+                "module": "Module 2: React Native Basics",
+                "topics": [
+                    "Environment Setup",
+                    "Core Components",
+                    "Styling",
+                    "Debugging"
+                ]
+            },
+            {
+                "module": "Module 3: Navigation",
+                "topics": [
+                    "React Navigation",
+                    "Stack Navigator",
+                    "Tab Navigator",
+                    "Drawer Navigator"
+                ]
+            },
+            {
+                "module": "Module 4: State Management",
+                "topics": [
+                    "Redux",
+                    "Redux Toolkit",
+                    "Context API",
+                    "Zustand"
+                ]
+            },
+            {
+                "module": "Module 5: Native Modules",
+                "topics": [
+                    "Camera Integration",
+                    "Location Services",
+                    "Push Notifications",
+                    "Native Modules"
+                ]
+            },
+            {
+                "module": "Module 6: Deployment & Publishing",
+                "topics": [
+                    "iOS Build Process",
+                    "Android Build Process",
+                    "App Store Guidelines",
+                    "Play Store Submission"
+                ]
+            }
+        ],
+        "tools": [
+            {
+                "name": "JavaScript",
+                "icon": "Code"
+            },
+            {
+                "name": "React Native",
+                "icon": "Layout"
+            },
+            {
+                "name": "Expo",
+                "icon": "Terminal"
+            },
+            {
+                "name": "Redux",
+                "icon": "Layers"
+            }
+        ],
+        "project": {
+            "title": "Build a Chat Application",
+            "description": "Develop a real-time chat application with user authentication, messaging, and notifications."
+        },
+        "audience": [
+            "React Developers",
+            "Web Developers",
+            "Full-Stack Developers"
+        ]
+    }
+    */
 }
