@@ -1633,3 +1633,99 @@ class FileAccessView(APIView):
         except Exception as e:
             return Response({"error": str(e)}, status=500)
 
+
+# ════════════════════════════════════════════════════════════
+# CHATBOT SIMILARITY SEARCH
+# ════════════════════════════════════════════════════════════
+
+import logging
+from rest_framework.throttling import SimpleRateThrottle
+
+logger = logging.getLogger(__name__)
+
+try:
+    from rag.rag_service import query_knowledge_base, DEFAULT_FALLBACK_MESSAGE
+except ImportError:
+    import sys
+    from pathlib import Path
+    from django.conf import settings
+    workspace_root = str(Path(settings.BASE_DIR).parent.parent)
+    if workspace_root not in sys.path:
+        sys.path.insert(0, workspace_root)
+    from rag.rag_service import query_knowledge_base, DEFAULT_FALLBACK_MESSAGE
+
+
+class ChatbotMinuteThrottle(SimpleRateThrottle):
+    """Throttles chatbot queries to 20 requests per minute per IP."""
+    scope = 'chatbot_minute'
+
+    def get_cache_key(self, request, view):
+        return self.get_ident(request)
+
+
+class ChatbotHourThrottle(SimpleRateThrottle):
+    """Throttles chatbot queries to 200 requests per hour per IP."""
+    scope = 'chatbot_hour'
+
+    def get_cache_key(self, request, view):
+        return self.get_ident(request)
+
+
+class ChatbotSearchView(APIView):
+    """
+    Production-ready chatbot endpoint for NxGen Tech Academy.
+    Delegates query understanding and tool-calling to Groq + controlled KB access.
+    Enforces IP-based rate limiting, query size validation, and complete error containment.
+    """
+    permission_classes = [AllowAny]
+    throttle_classes = [ChatbotMinuteThrottle, ChatbotHourThrottle]
+
+    def post(self, request):
+        query_text = request.data.get("query")
+        if not query_text or not str(query_text).strip():
+            return Response(
+                {"error": "Query string is required."},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+        clean_query = str(query_text).strip()
+        if len(clean_query) > 4000:
+            logger.warning("Chatbot query rejected: length %d exceeds 4000 characters limit from IP %s", len(clean_query), request.META.get("REMOTE_ADDR"))
+            return Response(
+                {"error": "Query exceeds maximum allowed length of 4000 characters."},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+        course_context = request.data.get("course_context")
+        if course_context is not None and not isinstance(course_context, (dict, str)):
+            course_context = None
+
+        conversation_history = request.data.get("conversation_history")
+        if conversation_history is not None and not isinstance(conversation_history, list):
+            conversation_history = None
+
+        try:
+            result = query_knowledge_base(
+                clean_query,
+                course_context=course_context,
+                conversation_history=conversation_history
+            )
+            return Response(result, status=status.HTTP_200_OK)
+        except Exception as e:
+            logger.error("Chatbot unexpected runtime error: %s", str(e), exc_info=False)
+            return Response(
+                {
+                    "found": False,
+                    "reply": DEFAULT_FALLBACK_MESSAGE,
+                    "course": None,
+                    "course_name": None,
+                    "course_slug": None,
+                    "section": None,
+                    "action_type": None,
+                    "action_url": None,
+                    "action_text": None,
+                },
+                status=status.HTTP_200_OK
+            )
+# Phase 8: Integrated Complete Chatbot Pipeline with Groq openai/gpt-oss-120b
+

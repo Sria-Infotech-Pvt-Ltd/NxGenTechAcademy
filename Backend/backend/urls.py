@@ -18,12 +18,14 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework_simplejwt.views import TokenRefreshView
 from blog.views import latest_blogs
+from courses.views import ChatbotSearchView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('api/auth/', include('accounts.urls')),
     path('api/courses/', include('courses.urls')),
+    path('api/chatbot/search/', ChatbotSearchView.as_view(), name='chatbot_search'),
     path('api/leads/', include('leads.urls')),
     path('api/blogs/', include('blog.urls')),
     path('api/campaigns/', include('campaign.urls')),
