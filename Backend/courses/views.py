@@ -1649,9 +1649,12 @@ except ImportError:
     import sys
     from pathlib import Path
     from django.conf import settings
+    project_root = str(Path(settings.BASE_DIR).parent)
+    if project_root not in sys.path:
+        sys.path.insert(0, project_root)
     workspace_root = str(Path(settings.BASE_DIR).parent.parent)
     if workspace_root not in sys.path:
-        sys.path.insert(0, workspace_root)
+        sys.path.append(workspace_root)
     from rag.rag_service import query_knowledge_base, DEFAULT_FALLBACK_MESSAGE
 
 
