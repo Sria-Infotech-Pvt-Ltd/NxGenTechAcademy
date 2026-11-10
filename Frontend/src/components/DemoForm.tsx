@@ -73,8 +73,12 @@ const DemoForm = ({ defaultCourse, onSuccess }: DemoFormProps) => {
             onSuccess?.();
         } catch (error: any) {
             console.error("Demo Request Error:", error);
-            const errorMsg = error.response?.data?.message || "Something went wrong. Please try again.";
-            toast.error(errorMsg);
+            if (error.response?.status === 429) {
+                toast.error("Too many requests. Please wait a moment before submitting again.");
+            } else {
+                const errorMsg = error.response?.data?.message || "Something went wrong. Please try again.";
+                toast.error(errorMsg);
+            }
         } finally {
             setIsSubmitting(false);
         }

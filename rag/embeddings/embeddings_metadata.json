@@ -1,0 +1,1596 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "total_embeddings": 227,
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "course": "About NxGen Tech Academy",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 490
+    },
+    {
+      "chunk_id": 1,
+      "course": "About NxGen Tech Academy",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 368
+    },
+    {
+      "chunk_id": 2,
+      "course": "About NxGen Tech Academy",
+      "section": "Our Mission",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 256
+    },
+    {
+      "chunk_id": 3,
+      "course": "About NxGen Tech Academy",
+      "section": "Our Vision",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 197
+    },
+    {
+      "chunk_id": 4,
+      "course": "About NxGen Tech Academy",
+      "section": "Our Core Values",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 306
+    },
+    {
+      "chunk_id": 5,
+      "course": "About NxGen Tech Academy",
+      "section": "What Makes NxGen Tech Academy Different?",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 464
+    },
+    {
+      "chunk_id": 6,
+      "course": "About NxGen Tech Academy",
+      "section": "Our Learning Approach",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 308
+    },
+    {
+      "chunk_id": 7,
+      "course": "About NxGen Tech Academy",
+      "section": "Our Training and Mentors",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 401
+    },
+    {
+      "chunk_id": 8,
+      "course": "About NxGen Tech Academy",
+      "section": "Contact & Location",
+      "source_file": "knowledge_base/academy/about_academy.md",
+      "text_length": 293
+    },
+    {
+      "chunk_id": 9,
+      "course": "Contact NxGen Tech Academy",
+      "section": "Content",
+      "source_file": "knowledge_base/academy/contact_details.md",
+      "text_length": 296
+    },
+    {
+      "chunk_id": 10,
+      "course": "Admission & Enrollment Process at NxGen Tech Academy",
+      "section": "Content",
+      "source_file": "knowledge_base/admissions/enrollment_process.md",
+      "text_length": 448
+    },
+    {
+      "chunk_id": 11,
+      "course": "AIML Programming",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 533
+    },
+    {
+      "chunk_id": 12,
+      "course": "AIML Programming",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 375
+    },
+    {
+      "chunk_id": 13,
+      "course": "AIML Programming",
+      "section": "Curriculum",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 944
+    },
+    {
+      "chunk_id": 14,
+      "course": "AIML Programming",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 178
+    },
+    {
+      "chunk_id": 15,
+      "course": "AIML Programming",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 992
+    },
+    {
+      "chunk_id": 16,
+      "course": "AIML Programming",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 111
+    },
+    {
+      "chunk_id": 17,
+      "course": "AIML Programming",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 219
+    },
+    {
+      "chunk_id": 18,
+      "course": "AIML Programming",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 183
+    },
+    {
+      "chunk_id": 19,
+      "course": "AIML Programming",
+      "section": "Frequently Asked Questions",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 959
+    },
+    {
+      "chunk_id": 20,
+      "course": "AIML Programming",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/aiml_programming.md",
+      "text_length": 626
+    },
+    {
+      "chunk_id": 21,
+      "course": "All Courses Offered",
+      "section": "Frequently Asked Questions",
+      "source_file": "knowledge_base/courses/all_courses_offered.md",
+      "text_length": 621
+    },
+    {
+      "chunk_id": 22,
+      "course": "All Courses Offered",
+      "section": "All Courses Offered by NxGen Tech Academy",
+      "source_file": "knowledge_base/courses/all_courses_offered.md",
+      "text_length": 1250
+    },
+    {
+      "chunk_id": 23,
+      "course": "All Courses Offered",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/all_courses_offered.md",
+      "text_length": 491
+    },
+    {
+      "chunk_id": 24,
+      "course": "AI Programming",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 601
+    },
+    {
+      "chunk_id": 25,
+      "course": "AI Programming",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 391
+    },
+    {
+      "chunk_id": 26,
+      "course": "AI Programming",
+      "section": "Curriculum",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 1004
+    },
+    {
+      "chunk_id": 27,
+      "course": "AI Programming",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 184
+    },
+    {
+      "chunk_id": 28,
+      "course": "AI Programming",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 990
+    },
+    {
+      "chunk_id": 29,
+      "course": "AI Programming",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 118
+    },
+    {
+      "chunk_id": 30,
+      "course": "AI Programming",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 201
+    },
+    {
+      "chunk_id": 31,
+      "course": "AI Programming",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 173
+    },
+    {
+      "chunk_id": 32,
+      "course": "AI Programming",
+      "section": "Frequently Asked Questions",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 847
+    },
+    {
+      "chunk_id": 33,
+      "course": "AI Programming",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/artificial_intelligence.md",
+      "text_length": 518
+    },
+    {
+      "chunk_id": 34,
+      "course": "Data Analytics Programming",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 543
+    },
+    {
+      "chunk_id": 35,
+      "course": "Data Analytics Programming",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 362
+    },
+    {
+      "chunk_id": 36,
+      "course": "Data Analytics Programming",
+      "section": "Curriculum (Part 1 of 2)",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 1386
+    },
+    {
+      "chunk_id": 37,
+      "course": "Data Analytics Programming",
+      "section": "Curriculum (Part 2 of 2)",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 642
+    },
+    {
+      "chunk_id": 38,
+      "course": "Data Analytics Programming",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 222
+    },
+    {
+      "chunk_id": 39,
+      "course": "Data Analytics Programming",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 1002
+    },
+    {
+      "chunk_id": 40,
+      "course": "Data Analytics Programming",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 124
+    },
+    {
+      "chunk_id": 41,
+      "course": "Data Analytics Programming",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 208
+    },
+    {
+      "chunk_id": 42,
+      "course": "Data Analytics Programming",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 199
+    },
+    {
+      "chunk_id": 43,
+      "course": "Data Analytics Programming",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/data_analytics.md",
+      "text_length": 259
+    },
+    {
+      "chunk_id": 44,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 632
+    },
+    {
+      "chunk_id": 45,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 371
+    },
+    {
+      "chunk_id": 46,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Curriculum",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 638
+    },
+    {
+      "chunk_id": 47,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 208
+    },
+    {
+      "chunk_id": 48,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 1011
+    },
+    {
+      "chunk_id": 49,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 137
+    },
+    {
+      "chunk_id": 50,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 202
+    },
+    {
+      "chunk_id": 51,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 200
+    },
+    {
+      "chunk_id": 52,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Frequently Asked Questions",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 437
+    },
+    {
+      "chunk_id": 53,
+      "course": "Digital Marketing Course (3 Months)",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/digital_marketing.md",
+      "text_length": 278
+    },
+    {
+      "chunk_id": 54,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 620
+    },
+    {
+      "chunk_id": 55,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 368
+    },
+    {
+      "chunk_id": 56,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Curriculum",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 899
+    },
+    {
+      "chunk_id": 57,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 277
+    },
+    {
+      "chunk_id": 58,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 1025
+    },
+    {
+      "chunk_id": 59,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 164
+    },
+    {
+      "chunk_id": 60,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 235
+    },
+    {
+      "chunk_id": 61,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 232
+    },
+    {
+      "chunk_id": 62,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Frequently Asked Questions",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 760
+    },
+    {
+      "chunk_id": 63,
+      "course": "Job Guarantee Digital Marketing Course (6 Months)",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/job_guarantee_digital_marketing.md",
+      "text_length": 576
+    },
+    {
+      "chunk_id": 64,
+      "course": "Python Programming",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 618
+    },
+    {
+      "chunk_id": 65,
+      "course": "Python Programming",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 370
+    },
+    {
+      "chunk_id": 66,
+      "course": "Python Programming",
+      "section": "Curriculum",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 591
+    },
+    {
+      "chunk_id": 67,
+      "course": "Python Programming",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 221
+    },
+    {
+      "chunk_id": 68,
+      "course": "Python Programming",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 994
+    },
+    {
+      "chunk_id": 69,
+      "course": "Python Programming",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 120
+    },
+    {
+      "chunk_id": 70,
+      "course": "Python Programming",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 214
+    },
+    {
+      "chunk_id": 71,
+      "course": "Python Programming",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 178
+    },
+    {
+      "chunk_id": 72,
+      "course": "Python Programming",
+      "section": "Frequently Asked Questions",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 928
+    },
+    {
+      "chunk_id": 73,
+      "course": "Python Programming",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/python_programming.md",
+      "text_length": 721
+    },
+    {
+      "chunk_id": 74,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 551
+    },
+    {
+      "chunk_id": 75,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 335
+    },
+    {
+      "chunk_id": 76,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Curriculum (Part 1 of 2)",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 1416
+    },
+    {
+      "chunk_id": 77,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Curriculum (Part 2 of 2)",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 1178
+    },
+    {
+      "chunk_id": 78,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 203
+    },
+    {
+      "chunk_id": 79,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 1021
+    },
+    {
+      "chunk_id": 80,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 147
+    },
+    {
+      "chunk_id": 81,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 245
+    },
+    {
+      "chunk_id": 82,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 186
+    },
+    {
+      "chunk_id": 83,
+      "course": "SAP ABAP on HANA (CDS & OData Training / RAP)",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_abap_cds_odata_rap.md",
+      "text_length": 645
+    },
+    {
+      "chunk_id": 84,
+      "course": "SAP ABAP on HANA",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 827
+    },
+    {
+      "chunk_id": 85,
+      "course": "SAP ABAP on HANA",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 309
+    },
+    {
+      "chunk_id": 86,
+      "course": "SAP ABAP on HANA",
+      "section": "Curriculum (Part 1 of 4)",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 1367
+    },
+    {
+      "chunk_id": 87,
+      "course": "SAP ABAP on HANA",
+      "section": "Curriculum (Part 2 of 4)",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 1366
+    },
+    {
+      "chunk_id": 88,
+      "course": "SAP ABAP on HANA",
+      "section": "Curriculum (Part 3 of 4)",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 1442
+    },
+    {
+      "chunk_id": 89,
+      "course": "SAP ABAP on HANA",
+      "section": "Curriculum (Part 4 of 4)",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 1263
+    },
+    {
+      "chunk_id": 90,
+      "course": "SAP ABAP on HANA",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 239
+    },
+    {
+      "chunk_id": 91,
+      "course": "SAP ABAP on HANA",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 992
+    },
+    {
+      "chunk_id": 92,
+      "course": "SAP ABAP on HANA",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 146
+    },
+    {
+      "chunk_id": 93,
+      "course": "SAP ABAP on HANA",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 163
+    },
+    {
+      "chunk_id": 94,
+      "course": "SAP ABAP on HANA",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 151
+    },
+    {
+      "chunk_id": 95,
+      "course": "SAP ABAP on HANA",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_abap_on_hana.md",
+      "text_length": 709
+    },
+    {
+      "chunk_id": 96,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 614
+    },
+    {
+      "chunk_id": 97,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 326
+    },
+    {
+      "chunk_id": 98,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Curriculum (Part 1 of 2)",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 1453
+    },
+    {
+      "chunk_id": 99,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Curriculum (Part 2 of 2)",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 770
+    },
+    {
+      "chunk_id": 100,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 258
+    },
+    {
+      "chunk_id": 101,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 1002
+    },
+    {
+      "chunk_id": 102,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 141
+    },
+    {
+      "chunk_id": 103,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 166
+    },
+    {
+      "chunk_id": 104,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 161
+    },
+    {
+      "chunk_id": 105,
+      "course": "SAP BASIS S/4HANA Training",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_basis_s4hana.md",
+      "text_length": 533
+    },
+    {
+      "chunk_id": 106,
+      "course": "SAP BTP For Freshers",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 722
+    },
+    {
+      "chunk_id": 107,
+      "course": "SAP BTP For Freshers",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 395
+    },
+    {
+      "chunk_id": 108,
+      "course": "SAP BTP For Freshers",
+      "section": "Curriculum (Part 1 of 3)",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 1287
+    },
+    {
+      "chunk_id": 109,
+      "course": "SAP BTP For Freshers",
+      "section": "Curriculum (Part 2 of 3)",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 1116
+    },
+    {
+      "chunk_id": 110,
+      "course": "SAP BTP For Freshers",
+      "section": "Curriculum (Part 3 of 3)",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 431
+    },
+    {
+      "chunk_id": 111,
+      "course": "SAP BTP For Freshers",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 220
+    },
+    {
+      "chunk_id": 112,
+      "course": "SAP BTP For Freshers",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 996
+    },
+    {
+      "chunk_id": 113,
+      "course": "SAP BTP For Freshers",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 111
+    },
+    {
+      "chunk_id": 114,
+      "course": "SAP BTP For Freshers",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 217
+    },
+    {
+      "chunk_id": 115,
+      "course": "SAP BTP For Freshers",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 154
+    },
+    {
+      "chunk_id": 116,
+      "course": "SAP BTP For Freshers",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_btp_freshers.md",
+      "text_length": 463
+    },
+    {
+      "chunk_id": 117,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 710
+    },
+    {
+      "chunk_id": 118,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 369
+    },
+    {
+      "chunk_id": 119,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Curriculum (Part 1 of 3)",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 1316
+    },
+    {
+      "chunk_id": 120,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Curriculum (Part 2 of 3)",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 1432
+    },
+    {
+      "chunk_id": 121,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Curriculum (Part 3 of 3)",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 256
+    },
+    {
+      "chunk_id": 122,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 258
+    },
+    {
+      "chunk_id": 123,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 1009
+    },
+    {
+      "chunk_id": 124,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 145
+    },
+    {
+      "chunk_id": 125,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 184
+    },
+    {
+      "chunk_id": 126,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 197
+    },
+    {
+      "chunk_id": 127,
+      "course": "SAP BTP For Working Professionals",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_btp_working_professionals.md",
+      "text_length": 494
+    },
+    {
+      "chunk_id": 128,
+      "course": "SAP CPI Training",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 802
+    },
+    {
+      "chunk_id": 129,
+      "course": "SAP CPI Training",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 406
+    },
+    {
+      "chunk_id": 130,
+      "course": "SAP CPI Training",
+      "section": "Curriculum (Part 1 of 3)",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 1164
+    },
+    {
+      "chunk_id": 131,
+      "course": "SAP CPI Training",
+      "section": "Curriculum (Part 2 of 3)",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 1417
+    },
+    {
+      "chunk_id": 132,
+      "course": "SAP CPI Training",
+      "section": "Curriculum (Part 3 of 3)",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 1199
+    },
+    {
+      "chunk_id": 133,
+      "course": "SAP CPI Training",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 275
+    },
+    {
+      "chunk_id": 134,
+      "course": "SAP CPI Training",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 992
+    },
+    {
+      "chunk_id": 135,
+      "course": "SAP CPI Training",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 132
+    },
+    {
+      "chunk_id": 136,
+      "course": "SAP CPI Training",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 169
+    },
+    {
+      "chunk_id": 137,
+      "course": "SAP CPI Training",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 211
+    },
+    {
+      "chunk_id": 138,
+      "course": "SAP CPI Training",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_cpi.md",
+      "text_length": 632
+    },
+    {
+      "chunk_id": 139,
+      "course": "SAP FICO Training",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 880
+    },
+    {
+      "chunk_id": 140,
+      "course": "SAP FICO Training",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 301
+    },
+    {
+      "chunk_id": 141,
+      "course": "SAP FICO Training",
+      "section": "Curriculum (Part 1 of 3)",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 1319
+    },
+    {
+      "chunk_id": 142,
+      "course": "SAP FICO Training",
+      "section": "Curriculum (Part 2 of 3)",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 1374
+    },
+    {
+      "chunk_id": 143,
+      "course": "SAP FICO Training",
+      "section": "Curriculum (Part 3 of 3)",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 1206
+    },
+    {
+      "chunk_id": 144,
+      "course": "SAP FICO Training",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 246
+    },
+    {
+      "chunk_id": 145,
+      "course": "SAP FICO Training",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 993
+    },
+    {
+      "chunk_id": 146,
+      "course": "SAP FICO Training",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 155
+    },
+    {
+      "chunk_id": 147,
+      "course": "SAP FICO Training",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 178
+    },
+    {
+      "chunk_id": 148,
+      "course": "SAP FICO Training",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 188
+    },
+    {
+      "chunk_id": 149,
+      "course": "SAP FICO Training",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_fico.md",
+      "text_length": 465
+    },
+    {
+      "chunk_id": 150,
+      "course": "SAP MM (Materials Management)",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 758
+    },
+    {
+      "chunk_id": 151,
+      "course": "SAP MM (Materials Management)",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 392
+    },
+    {
+      "chunk_id": 152,
+      "course": "SAP MM (Materials Management)",
+      "section": "Curriculum (Part 1 of 4)",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 1418
+    },
+    {
+      "chunk_id": 153,
+      "course": "SAP MM (Materials Management)",
+      "section": "Curriculum (Part 2 of 4)",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 1255
+    },
+    {
+      "chunk_id": 154,
+      "course": "SAP MM (Materials Management)",
+      "section": "Curriculum (Part 3 of 4)",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 1288
+    },
+    {
+      "chunk_id": 155,
+      "course": "SAP MM (Materials Management)",
+      "section": "Curriculum (Part 4 of 4)",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 1153
+    },
+    {
+      "chunk_id": 156,
+      "course": "SAP MM (Materials Management)",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 251
+    },
+    {
+      "chunk_id": 157,
+      "course": "SAP MM (Materials Management)",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 1005
+    },
+    {
+      "chunk_id": 158,
+      "course": "SAP MM (Materials Management)",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 146
+    },
+    {
+      "chunk_id": 159,
+      "course": "SAP MM (Materials Management)",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 201
+    },
+    {
+      "chunk_id": 160,
+      "course": "SAP MM (Materials Management)",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 217
+    },
+    {
+      "chunk_id": 161,
+      "course": "SAP MM (Materials Management)",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_mm.md",
+      "text_length": 615
+    },
+    {
+      "chunk_id": 162,
+      "course": "SAP PP (Production Planning)",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 794
+    },
+    {
+      "chunk_id": 163,
+      "course": "SAP PP (Production Planning)",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 422
+    },
+    {
+      "chunk_id": 164,
+      "course": "SAP PP (Production Planning)",
+      "section": "Curriculum (Part 1 of 4)",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 1308
+    },
+    {
+      "chunk_id": 165,
+      "course": "SAP PP (Production Planning)",
+      "section": "Curriculum (Part 2 of 4)",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 1251
+    },
+    {
+      "chunk_id": 166,
+      "course": "SAP PP (Production Planning)",
+      "section": "Curriculum (Part 3 of 4)",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 1349
+    },
+    {
+      "chunk_id": 167,
+      "course": "SAP PP (Production Planning)",
+      "section": "Curriculum (Part 4 of 4)",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 564
+    },
+    {
+      "chunk_id": 168,
+      "course": "SAP PP (Production Planning)",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 252
+    },
+    {
+      "chunk_id": 169,
+      "course": "SAP PP (Production Planning)",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 1004
+    },
+    {
+      "chunk_id": 170,
+      "course": "SAP PP (Production Planning)",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 158
+    },
+    {
+      "chunk_id": 171,
+      "course": "SAP PP (Production Planning)",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 180
+    },
+    {
+      "chunk_id": 172,
+      "course": "SAP PP (Production Planning)",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 233
+    },
+    {
+      "chunk_id": 173,
+      "course": "SAP PP (Production Planning)",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_pp.md",
+      "text_length": 419
+    },
+    {
+      "chunk_id": 174,
+      "course": "SAP QM (Quality Management)",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 760
+    },
+    {
+      "chunk_id": 175,
+      "course": "SAP QM (Quality Management)",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 446
+    },
+    {
+      "chunk_id": 176,
+      "course": "SAP QM (Quality Management)",
+      "section": "Curriculum (Part 1 of 3)",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 1198
+    },
+    {
+      "chunk_id": 177,
+      "course": "SAP QM (Quality Management)",
+      "section": "Curriculum (Part 2 of 3)",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 1257
+    },
+    {
+      "chunk_id": 178,
+      "course": "SAP QM (Quality Management)",
+      "section": "Curriculum (Part 3 of 3)",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 711
+    },
+    {
+      "chunk_id": 179,
+      "course": "SAP QM (Quality Management)",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 233
+    },
+    {
+      "chunk_id": 180,
+      "course": "SAP QM (Quality Management)",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 1003
+    },
+    {
+      "chunk_id": 181,
+      "course": "SAP QM (Quality Management)",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 116
+    },
+    {
+      "chunk_id": 182,
+      "course": "SAP QM (Quality Management)",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 196
+    },
+    {
+      "chunk_id": 183,
+      "course": "SAP QM (Quality Management)",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 252
+    },
+    {
+      "chunk_id": 184,
+      "course": "SAP QM (Quality Management)",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_qm.md",
+      "text_length": 475
+    },
+    {
+      "chunk_id": 185,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 905
+    },
+    {
+      "chunk_id": 186,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 395
+    },
+    {
+      "chunk_id": 187,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Curriculum (Part 1 of 3)",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 1454
+    },
+    {
+      "chunk_id": 188,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Curriculum (Part 2 of 3)",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 1337
+    },
+    {
+      "chunk_id": 189,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Curriculum (Part 3 of 3)",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 1340
+    },
+    {
+      "chunk_id": 190,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 252
+    },
+    {
+      "chunk_id": 191,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 1005
+    },
+    {
+      "chunk_id": 192,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 127
+    },
+    {
+      "chunk_id": 193,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 203
+    },
+    {
+      "chunk_id": 194,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 266
+    },
+    {
+      "chunk_id": 195,
+      "course": "SAP SD (Sales & Distribution)",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_sd.md",
+      "text_length": 531
+    },
+    {
+      "chunk_id": 196,
+      "course": "SAP Fiori & UI5",
+      "section": "Course Overview",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 809
+    },
+    {
+      "chunk_id": 197,
+      "course": "SAP Fiori & UI5",
+      "section": "Course Details",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 388
+    },
+    {
+      "chunk_id": 198,
+      "course": "SAP Fiori & UI5",
+      "section": "Curriculum (Part 1 of 4)",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 1305
+    },
+    {
+      "chunk_id": 199,
+      "course": "SAP Fiori & UI5",
+      "section": "Curriculum (Part 2 of 4)",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 1242
+    },
+    {
+      "chunk_id": 200,
+      "course": "SAP Fiori & UI5",
+      "section": "Curriculum (Part 3 of 4)",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 1372
+    },
+    {
+      "chunk_id": 201,
+      "course": "SAP Fiori & UI5",
+      "section": "Curriculum (Part 4 of 4)",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 636
+    },
+    {
+      "chunk_id": 202,
+      "course": "SAP Fiori & UI5",
+      "section": "Projects",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 237
+    },
+    {
+      "chunk_id": 203,
+      "course": "SAP Fiori & UI5",
+      "section": "Industrial Readiness",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 991
+    },
+    {
+      "chunk_id": 204,
+      "course": "SAP Fiori & UI5",
+      "section": "Certification",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 132
+    },
+    {
+      "chunk_id": 205,
+      "course": "SAP Fiori & UI5",
+      "section": "Placement Assistance",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 167
+    },
+    {
+      "chunk_id": 206,
+      "course": "SAP Fiori & UI5",
+      "section": "Career Opportunities",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 174
+    },
+    {
+      "chunk_id": 207,
+      "course": "SAP Fiori & UI5",
+      "section": "Other Course Information",
+      "source_file": "knowledge_base/courses/sap_ui5_fiori.md",
+      "text_length": 352
+    },
+    {
+      "chunk_id": 208,
+      "course": "About FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_about.md",
+      "text_length": 544
+    },
+    {
+      "chunk_id": 209,
+      "course": "Admissions FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_admissions.md",
+      "text_length": 352
+    },
+    {
+      "chunk_id": 210,
+      "course": "AI FAQs",
+      "section": "Content (Part 1 of 2)",
+      "source_file": "knowledge_base/faq/faq_ai.md",
+      "text_length": 1372
+    },
+    {
+      "chunk_id": 211,
+      "course": "AI FAQs",
+      "section": "Content (Part 2 of 2)",
+      "source_file": "knowledge_base/faq/faq_ai.md",
+      "text_length": 404
+    },
+    {
+      "chunk_id": 212,
+      "course": "AIML FAQs",
+      "section": "Content (Part 1 of 2)",
+      "source_file": "knowledge_base/faq/faq_aiml.md",
+      "text_length": 1339
+    },
+    {
+      "chunk_id": 213,
+      "course": "AIML FAQs",
+      "section": "Content (Part 2 of 2)",
+      "source_file": "knowledge_base/faq/faq_aiml.md",
+      "text_length": 502
+    },
+    {
+      "chunk_id": 214,
+      "course": "Associations FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_associations.md",
+      "text_length": 410
+    },
+    {
+      "chunk_id": 215,
+      "course": "Certification FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_certification.md",
+      "text_length": 352
+    },
+    {
+      "chunk_id": 216,
+      "course": "Courses FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_courses.md",
+      "text_length": 345
+    },
+    {
+      "chunk_id": 217,
+      "course": "Digital Marketing FAQs",
+      "section": "Content (Part 1 of 2)",
+      "source_file": "knowledge_base/faq/faq_digital_marketing.md",
+      "text_length": 1412
+    },
+    {
+      "chunk_id": 218,
+      "course": "Digital Marketing FAQs",
+      "section": "Content (Part 2 of 2)",
+      "source_file": "knowledge_base/faq/faq_digital_marketing.md",
+      "text_length": 572
+    },
+    {
+      "chunk_id": 219,
+      "course": "Eligibility FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_eligibility.md",
+      "text_length": 346
+    },
+    {
+      "chunk_id": 220,
+      "course": "Location FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_location.md",
+      "text_length": 358
+    },
+    {
+      "chunk_id": 221,
+      "course": "Placements FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_placements.md",
+      "text_length": 375
+    },
+    {
+      "chunk_id": 222,
+      "course": "Python FAQs",
+      "section": "Content (Part 1 of 2)",
+      "source_file": "knowledge_base/faq/faq_python.md",
+      "text_length": 1373
+    },
+    {
+      "chunk_id": 223,
+      "course": "Python FAQs",
+      "section": "Content (Part 2 of 2)",
+      "source_file": "knowledge_base/faq/faq_python.md",
+      "text_length": 547
+    },
+    {
+      "chunk_id": 224,
+      "course": "Training Mode FAQs",
+      "section": "Content",
+      "source_file": "knowledge_base/faq/faq_training_mode.md",
+      "text_length": 309
+    },
+    {
+      "chunk_id": 225,
+      "course": "100% Placement Assistance at NxGen Tech Academy",
+      "section": "Content",
+      "source_file": "knowledge_base/placement/placement_support.md",
+      "text_length": 389
+    },
+    {
+      "chunk_id": 226,
+      "course": "Privacy Policy Summary",
+      "section": "Content",
+      "source_file": "knowledge_base/policies/privacy_policy.md",
+      "text_length": 244
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { TopBar } from "./components/TopBar"; // New Import
 import { WhatsAppButton } from "./components/WhatsAppButton";
+import { ChatWidget } from "./components/ChatWidget";
 // Home stays eagerly bundled - it's the landing page for most visitors,
 // so lazy-loading it would add a network round trip to the LCP path.
 import Home from "./pages/Home";
@@ -169,90 +170,91 @@ const AppContent = () => {
           <Route path="login" element={<Login />} />
           <Route path="forgot-password" element={<ForgotPassword />} />
 
-          {/* Legacy Login Routes (Redirecting to new login) */}
-          <Route path="student-login" element={<Login />} />
-          <Route path="instructor-login" element={<Login />} />
-          <Route path="admin-login" element={<Login />} />
+            {/* Legacy Login Routes (Redirecting to new login) */}
+            <Route path="student-login" element={<Login />} />
+            <Route path="instructor-login" element={<Login />} />
+            <Route path="admin-login" element={<Login />} />
 
-          {/* Protected Dashboard Routes */}
-          <Route path="admin/*" element={
-            <ProtectedRoute allowedRoles={["admin"]}>
-              <Routes>
-                <Route path="/" element={<MainDashboard />} />
-                <Route path="Presales" element={<Presales />} />
-                <Route path="dashboard" element={<MainDashboard />} />
-                <Route path="students" element={<StudentsPage />} />
-                <Route path="students/:id" element={<StudentDetailPage />} />
-                <Route path="instructors" element={<InstructorsPage />} />
-                <Route path="instructors/add" element={<AddInstructor />} />
-                <Route path="courses" element={<AdminCourses />} />
-                <Route path="batches" element={<AdminBatches />} />
-                <Route path="assignments" element={<AdminAssignments />} />
-                <Route path="finance/transactions" element={<Transactions />} />
-                <Route path="finance/invoices" element={<Invoices />} />
-                <Route path="finance/invoices/:enrollmentId" element={<AdminInvoiceDetail />} />
-                <Route path="finance/refunds" element={<Refunds />} />
-                <Route path="finance/reports" element={<Reports />} />
-              </Routes>
-            </ProtectedRoute>
-          } />
+            {/* Protected Dashboard Routes */}
+            <Route path="admin/*" element={
+              <ProtectedRoute allowedRoles={["admin"]}>
+                <Routes>
+                  <Route path="/" element={<MainDashboard />} />
+                  <Route path="Presales" element={<Presales />} />
+                  <Route path="dashboard" element={<MainDashboard />} />
+                  <Route path="students" element={<StudentsPage />} />
+                  <Route path="students/:id" element={<StudentDetailPage />} />
+                  <Route path="instructors" element={<InstructorsPage />} />
+                  <Route path="instructors/add" element={<AddInstructor />} />
+                  <Route path="courses" element={<AdminCourses />} />
+                  <Route path="batches" element={<AdminBatches />} />
+                  <Route path="assignments" element={<AdminAssignments />} />
+                  <Route path="finance/transactions" element={<Transactions />} />
+                  <Route path="finance/invoices" element={<Invoices />} />
+                  <Route path="finance/invoices/:enrollmentId" element={<AdminInvoiceDetail />} />
+                  <Route path="finance/refunds" element={<Refunds />} />
+                  <Route path="finance/reports" element={<Reports />} />
+                </Routes>
+              </ProtectedRoute>
+            } />
 
-          <Route path="instructor/*" element={
-            <ProtectedRoute allowedRoles={["instructor"]}>
-              <Routes>
-                <Route path="/" element={<InstructorDashboard />} />
-                <Route path="dashboard" element={<InstructorDashboard />} />
-                <Route path="courses" element={<InstructorCourses />} />
-                <Route path="courses/:courseId/lessons" element={<InstructorLessons />} />
-                <Route path="courses/:courseId/modules/:moduleId/lessons" element={<InstructorModuleLessons />} />
-                <Route path="lessons/:lessonId/topics" element={<InstructorTopics />} />
-                <Route path="students" element={<InstructorStudents />} />
-                <Route path="assignments" element={<InstructorAssignments />} />
-                <Route path="profile" element={<InstructorProfile />} />
-                <Route path="change-password" element={<ChangePassword />} />
-              </Routes>
-            </ProtectedRoute>
-          } />
+            <Route path="instructor/*" element={
+              <ProtectedRoute allowedRoles={["instructor"]}>
+                <Routes>
+                  <Route path="/" element={<InstructorDashboard />} />
+                  <Route path="dashboard" element={<InstructorDashboard />} />
+                  <Route path="courses" element={<InstructorCourses />} />
+                  <Route path="courses/:courseId/lessons" element={<InstructorLessons />} />
+                  <Route path="courses/:courseId/modules/:moduleId/lessons" element={<InstructorModuleLessons />} />
+                  <Route path="lessons/:lessonId/topics" element={<InstructorTopics />} />
+                  <Route path="students" element={<InstructorStudents />} />
+                  <Route path="assignments" element={<InstructorAssignments />} />
+                  <Route path="profile" element={<InstructorProfile />} />
+                  <Route path="change-password" element={<ChangePassword />} />
+                </Routes>
+              </ProtectedRoute>
+            } />
 
-          <Route path="student/*" element={
-            <ProtectedRoute allowedRoles={["student"]}>
-              <Routes>
-                <Route path="/" element={<StudentDashboard />} />
-                <Route path="dashboard" element={<StudentDashboard />} />
-                <Route path="change-password" element={<ChangePassword />} />
-                <Route path="courses" element={<StudentCourses />} />
-                <Route path="assignments" element={<StudentAssignments />} />
-                <Route path="progress" element={<StudentProgress />} />
-                <Route path="certificates" element={<StudentCertificates />} />
-                <Route path="profile" element={<StudentProfile />} />
-                <Route path="course/:id" element={<CourseViewer />} />
-                <Route path="payment-history" element={<StudentPaymentHistory />} />
-                <Route path="invoices" element={<StudentInvoices />} />
-                <Route path="invoices/:enrollmentId" element={<StudentInvoiceDetail />} />
-              </Routes>
-            </ProtectedRoute>
-          } />
+            <Route path="student/*" element={
+              <ProtectedRoute allowedRoles={["student"]}>
+                <Routes>
+                  <Route path="/" element={<StudentDashboard />} />
+                  <Route path="dashboard" element={<StudentDashboard />} />
+                  <Route path="change-password" element={<ChangePassword />} />
+                  <Route path="courses" element={<StudentCourses />} />
+                  <Route path="assignments" element={<StudentAssignments />} />
+                  <Route path="progress" element={<StudentProgress />} />
+                  <Route path="certificates" element={<StudentCertificates />} />
+                  <Route path="profile" element={<StudentProfile />} />
+                  <Route path="course/:id" element={<CourseViewer />} />
+                  <Route path="payment-history" element={<StudentPaymentHistory />} />
+                  <Route path="invoices" element={<StudentInvoices />} />
+                  <Route path="invoices/:enrollmentId" element={<StudentInvoiceDetail />} />
+                </Routes>
+              </ProtectedRoute>
+            } />
 
-          <Route path="payments" element={
-            <ProtectedRoute allowedRoles={["student"]}>
-              <Payments />
-            </ProtectedRoute>
-          } />
+            <Route path="payments" element={
+              <ProtectedRoute allowedRoles={["student"]}>
+                <Payments />
+              </ProtectedRoute>
+            } />
 
-          <Route path="blog-admin/*" element={
-            <ProtectedRoute allowedRoles={["blog_admin"]}>
-              <BlogDashboard />
-            </ProtectedRoute>
-          } />
+            <Route path="blog-admin/*" element={
+              <ProtectedRoute allowedRoles={["blog_admin"]}>
+                <BlogDashboard />
+              </ProtectedRoute>
+            } />
 
-          <Route path="privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+            <Route path="privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </Suspense>
       </main>
       {!hideComponents && <Footer />}
       {/* Shown on every page - before login, after login, and on every dashboard */}
       <WhatsAppButton />
+      {!isAuthPage && <ChatWidget />}
     </>
   );
 };
